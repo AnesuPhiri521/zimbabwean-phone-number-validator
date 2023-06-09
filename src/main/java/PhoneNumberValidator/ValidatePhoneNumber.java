@@ -16,7 +16,7 @@ public class ValidatePhoneNumber {
             return validatePhoneNumber(phoneNumber);
         else{
             return ValidationResponse.builder()
-                    .message(notValid)
+                    .message(inValidPhoneNumber)
                     .status(false)
                     .phoneNumberLength(phoneNumber.length())
                     .build();
@@ -25,32 +25,34 @@ public class ValidatePhoneNumber {
 
     private ValidationResponse validatePhoneNumber(String phoneNumber) {
         if(phoneNumber.startsWith("0") && phoneNumber.length() == 10){
-            return ValidationResponse.builder()
-                    .message(validPhoneNumber)
-                    .status(true)
-                    .phoneNumberLength(phoneNumber.length())
-                    .build();
+            return checkIfContainsNumbers(phoneNumber);
         } else if(phoneNumber.startsWith("263") && phoneNumber.length() == 12){
-            return ValidationResponse.builder()
-                    .message(validPhoneNumber)
-                    .status(true)
-                    .phoneNumberLength(phoneNumber.length())
-                    .build();
+            return checkIfContainsNumbers(phoneNumber);
         }else if(phoneNumber.startsWith("+263") && phoneNumber.length() == 13){
-            return ValidationResponse.builder()
-                    .message(validPhoneNumber)
-                    .status(true)
-                    .phoneNumberLength(phoneNumber.length())
-                    .build();
+            phoneNumber = phoneNumber.replace("+","");
+            return checkIfContainsNumbers(phoneNumber);
         }else if(phoneNumber.startsWith("7") && phoneNumber.length() == 9){
-            return ValidationResponse.builder()
-                    .message(validPhoneNumber)
-                    .status(true)
-                    .phoneNumberLength(phoneNumber.length())
-                    .build();
+            return checkIfContainsNumbers(phoneNumber);
         } else{
             return ValidationResponse.builder()
-                    .message(notValidLength)
+                    .message(inValidPhoneNumber)
+                    .status(false)
+                    .phoneNumberLength(phoneNumber.length())
+                    .build();
+
+        }
+    }
+
+    private ValidationResponse checkIfContainsNumbers(String phoneNumber) {
+        if(phoneNumber.matches("\\d+")){
+            return ValidationResponse.builder()
+                    .message(validPhoneNumber)
+                    .status(true)
+                    .phoneNumberLength(phoneNumber.length())
+                    .build();
+        }else{
+            return ValidationResponse.builder()
+                    .message(inValidPhoneNumberCharacters)
                     .status(false)
                     .phoneNumberLength(phoneNumber.length())
                     .build();

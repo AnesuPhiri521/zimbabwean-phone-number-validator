@@ -5,8 +5,10 @@ package PhoneNumberValidator;/*
  */
 
 public class main {
+
+    //Example
     public static void main(String[] args) {
         ValidatePhoneNumber validatePhoneNumber = new ValidatePhoneNumber();
-        System.out.println(validatePhoneNumber.validate(" 77 927 8524").toString());
+        System.out.println(validatePhoneNumber.validate("26377gg72534").toString());
     }
 }
