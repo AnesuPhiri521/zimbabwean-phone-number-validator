@@ -17,12 +17,7 @@ public class ValidatePhoneNumber {
         phoneNumber=phoneNumber.replace(" ", "").trim();
         if (phoneNumber.startsWith("0") || phoneNumber.startsWith("263") || phoneNumber.startsWith("+263") || phoneNumber.startsWith("7"))
             return validatePhoneNumber(phoneNumber);
-        else{
-            return ValidationResponse.builder()
-                    .message(inValidPhoneNumber)
-                    .status(false)
-                    .build();
-        }
+        else return ValidationResponse.builder().message(inValidPhoneNumber).status(false).build();
     }
 
     private ValidationResponse validatePhoneNumber(String phoneNumber) {
@@ -31,35 +26,16 @@ public class ValidatePhoneNumber {
         } else if(phoneNumber.startsWith("+263") && phoneNumber.length() == 13){
             phoneNumber = phoneNumber.replace("+","");
             return checkIfContainsNumbers(phoneNumber);
-        } else{
-            return ValidationResponse.builder()
-                    .message(inValidPhoneNumber)
-                    .status(false)
-                    .build();
-
-        }
+        } else return ValidationResponse.builder().message(inValidPhoneNumber).status(false).build();
     }
 
     private ValidationResponse checkIfContainsNumbers(String phoneNumber) {
         if(phoneNumber.matches("\\d+")){
             ServiceProviderCheck serviceProviderCheck = new CheckServiceProvider().checkProvider(phoneNumber);
             if (serviceProviderCheck.isValid())
-                return ValidationResponse.builder()
-                    .message(validPhoneNumber)
-                    .status(true)
-                    .serviceProvider(serviceProviderCheck.getServiceProvider())
-                    .build();
-            else
-                return ValidationResponse.builder()
-                        .message(inValidPhoneNumberServiceProvider)
-                        .status(false)
-                        .build();
-        }else{
-            return ValidationResponse.builder()
-                    .message(inValidPhoneNumberCharacters)
-                    .status(false)
-                    .build();
-        }
+                return ValidationResponse.builder().message(validPhoneNumber).status(true).serviceProvider(serviceProviderCheck.getServiceProvider()).build();
+            else return ValidationResponse.builder().message(inValidPhoneNumberServiceProvider).status(false).build();
+        }else return ValidationResponse.builder().message(inValidPhoneNumberCharacters).status(false).build();
     }
 
 }
