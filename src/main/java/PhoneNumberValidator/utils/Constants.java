@@ -10,4 +10,5 @@ public class Constants {
     public static final String inValidPhoneNumber = "Phone length is not valid";
     public static final String inValidPhoneNumberCharacters = "Phone should not contain characters other than +";
     public static final String validPhoneNumber = "Phone number is valid";
+    public static final String inValidPhoneNumberServiceProvider = "Invalid phone number service provider";
 }

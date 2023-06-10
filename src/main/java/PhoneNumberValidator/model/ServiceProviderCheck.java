@@ -1,7 +1,7 @@
 package PhoneNumberValidator.model;
 
 /*
- * @created - 09/06/2023
+ * @created - 10/06/2023
  * @project - zimbabwean-phone-number-validator
  * @author - anesuphiri - sehphirry@gmail.com
  */
@@ -16,8 +16,7 @@ import lombok.ToString;
 @Setter
 @Builder
 @ToString
-public class ValidationResponse {
-    private boolean status;
-    private String message;
+public class ServiceProviderCheck {
+    private boolean valid;
     private ServiceProviders serviceProvider;
 }

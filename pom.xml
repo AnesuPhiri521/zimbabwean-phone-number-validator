@@ -4,7 +4,33 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.sehphirry</groupId>
+    <name>${project.groupId}:${project.artifactId}</name>
+    <url>https://github.com/AnesuPhiri521/zimbabwean-phone-number-validator</url>
+    <description>zimbabwean phone number validator (starting with +263, 263, 0 and 7)</description>
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Anesu Phiri</name>
+            <email>sehphirry@gmail.com</email>
+            <organization>com.github.AnesuPhiri521</organization>
+            <organizationUrl>https://github.com/AnesuPhiri521</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/AnesuPhiri521/zimbabwean-phone-number-validator.git</connection>
+        <developerConnection>scm:git:ssh://github.com/AnesuPhiri521/zimbabwean-phone-number-validator.git</developerConnection>
+        <url>https://github.com/AnesuPhiri521/zimbabwean-phone-number-validator</url>
+    </scm>
+
+
+    <groupId>zw.co.truvisionarydesigns</groupId>
     <artifactId>zimbabwean-phone-number-validator</artifactId>
     <version>1.0-SNAPSHOT</version>
 
