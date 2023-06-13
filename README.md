@@ -28,7 +28,7 @@ To use the Java Zimbabwean Phone Number Validator, you can download
 Create an instance of `ValidatePhoneNumber` and call the method `validate(phonenumber)` with phone number as the parameter.
 ``` 
 ValidatePhoneNumber validatePhoneNumber = new ValidatePhoneNumber();
-validatePhoneNumber.validate("071 XXX XXXX").toString()
+validatePhoneNumber.validate("071 XXX XXXX");
 ``` 
 
 ### Response from validation
