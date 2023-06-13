@@ -19,7 +19,9 @@ To use the Java Zimbabwean Phone Number Validator.
 ```
 
 #### Gradle
-```implementation group: 'io.github.anesuphiri521', name: 'zimbabwean-phone-number-validator', version: '1.0.0'```
+```
+implementation group: 'io.github.anesuphiri521', name: 'zimbabwean-phone-number-validator', version: '1.0.0'
+```
 
 #### Ivy
 ```
