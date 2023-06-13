@@ -1,4 +1,4 @@
-PhoneNumberValidator
-PhoneNumberValidator.model
-PhoneNumberValidator.service
-PhoneNumberValidator.utils
+io.github.anesuphiri521.PhoneNumberValidator
+io.github.anesuphiri521.PhoneNumberValidator.model
+io.github.anesuphiri521.PhoneNumberValidator.service
+io.github.anesuphiri521.PhoneNumberValidator.utils

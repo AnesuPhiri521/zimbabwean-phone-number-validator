@@ -1,7 +1,7 @@
-/Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/PhoneNumberValidator/main.java
-/Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/PhoneNumberValidator/utils/Constants.java
-/Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/PhoneNumberValidator/model/ValidationResponse.java
-/Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/PhoneNumberValidator/model/ServiceProviderCheck.java
-/Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/PhoneNumberValidator/service/ValidatePhoneNumber.java
-/Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/PhoneNumberValidator/utils/ServiceProviders.java
-/Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/PhoneNumberValidator/service/CheckServiceProvider.java
+/Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/io/github/anesuphiri521/PhoneNumberValidator/main.java
+/Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/io/github/anesuphiri521/PhoneNumberValidator/service/ValidatePhoneNumber.java
+/Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/io/github/anesuphiri521/PhoneNumberValidator/utils/ServiceProviders.java
+/Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/io/github/anesuphiri521/PhoneNumberValidator/model/ServiceProviderCheck.java
+/Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/io/github/anesuphiri521/PhoneNumberValidator/utils/Constants.java
+/Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/io/github/anesuphiri521/PhoneNumberValidator/model/ValidationResponse.java
+/Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/io/github/anesuphiri521/PhoneNumberValidator/service/CheckServiceProvider.java
