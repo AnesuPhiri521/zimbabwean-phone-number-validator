@@ -1,5 +1,9 @@
-PhoneNumberValidator/ValidatePhoneNumber.class
-PhoneNumberValidator/model/ValidationResponse$ValidationResponseBuilder.class
+PhoneNumberValidator/utils/ServiceProviders.class
+PhoneNumberValidator/service/CheckServiceProvider.class
 PhoneNumberValidator/utils/Constants.class
-PhoneNumberValidator/model/ValidationResponse.class
+PhoneNumberValidator/model/ServiceProviderCheck.class
 PhoneNumberValidator/main.class
+PhoneNumberValidator/model/ValidationResponse$ValidationResponseBuilder.class
+PhoneNumberValidator/model/ValidationResponse.class
+PhoneNumberValidator/model/ServiceProviderCheck$ServiceProviderCheckBuilder.class
+PhoneNumberValidator/service/ValidatePhoneNumber.class

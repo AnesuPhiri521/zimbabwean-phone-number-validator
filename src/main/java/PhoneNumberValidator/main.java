@@ -13,6 +13,6 @@ public class main {
     //Example
     public static void main(String[] args) {
         ValidatePhoneNumber validatePhoneNumber = new ValidatePhoneNumber();
-        System.out.println(validatePhoneNumber.validate("071 460 1129").toString());
+        System.out.println(validatePhoneNumber.validate("071 451 1430").toString());
     }
 }

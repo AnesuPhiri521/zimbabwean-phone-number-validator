@@ -1,4 +1,7 @@
-/Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/PhoneNumberValidator/ValidatePhoneNumber.java
 /Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/PhoneNumberValidator/main.java
 /Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/PhoneNumberValidator/utils/Constants.java
 /Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/PhoneNumberValidator/model/ValidationResponse.java
+/Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/PhoneNumberValidator/model/ServiceProviderCheck.java
+/Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/PhoneNumberValidator/service/ValidatePhoneNumber.java
+/Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/PhoneNumberValidator/utils/ServiceProviders.java
+/Users/anesuphiri/Documents/space/java/zimbabwean-phone-number-validator/src/main/java/PhoneNumberValidator/service/CheckServiceProvider.java
