@@ -1,4 +1,4 @@
-package PhoneNumberValidator.service;
+package io.github.anesuphiri521.PhoneNumberValidator.service;
 
 /*
  * @created - 10/06/2023
@@ -6,8 +6,8 @@ package PhoneNumberValidator.service;
  * @author - anesuphiri - sehphirry@gmail.com
  */
 
-import PhoneNumberValidator.model.ServiceProviderCheck;
-import PhoneNumberValidator.utils.ServiceProviders;
+import io.github.anesuphiri521.PhoneNumberValidator.model.ServiceProviderCheck;
+import io.github.anesuphiri521.PhoneNumberValidator.utils.ServiceProviders;
 
 public class CheckServiceProvider {
 

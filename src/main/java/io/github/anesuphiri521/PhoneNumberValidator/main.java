@@ -1,4 +1,4 @@
-package PhoneNumberValidator;
+package io.github.anesuphiri521.PhoneNumberValidator;
 
 /*
  * @created - 09/06/2023
@@ -6,7 +6,7 @@ package PhoneNumberValidator;
  * @author - anesuphiri - sehphirry@gmail.com
  */
 
-import PhoneNumberValidator.service.ValidatePhoneNumber;
+import io.github.anesuphiri521.PhoneNumberValidator.service.ValidatePhoneNumber;
 
 public class main {
 

@@ -1,4 +1,4 @@
-package PhoneNumberValidator.utils;
+package io.github.anesuphiri521.PhoneNumberValidator.utils;
 
 /*
  * @created - 09/06/2023

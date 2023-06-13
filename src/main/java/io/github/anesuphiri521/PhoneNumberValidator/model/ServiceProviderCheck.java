@@ -1,4 +1,4 @@
-package PhoneNumberValidator.model;
+package io.github.anesuphiri521.PhoneNumberValidator.model;
 
 /*
  * @created - 10/06/2023
@@ -6,7 +6,7 @@ package PhoneNumberValidator.model;
  * @author - anesuphiri - sehphirry@gmail.com
  */
 
-import PhoneNumberValidator.utils.ServiceProviders;
+import io.github.anesuphiri521.PhoneNumberValidator.utils.ServiceProviders;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
