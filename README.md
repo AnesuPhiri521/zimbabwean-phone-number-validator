@@ -7,7 +7,7 @@ In order to make use of this project, the following prerequisites must be met fo
 Java JDK 7 or higher
 
 ### Installation
-To use the Java Zimbabwean Phone Number Validator, you can download 
+To use the Java Zimbabwean Phone Number Validator. 
 
 #### Gradle
 `implementation group: 'io.github.anesuphiri521', name: 'zimbabwean-phone-number-validator', version: '1.0.0'`
@@ -28,7 +28,7 @@ To use the Java Zimbabwean Phone Number Validator, you can download
 Create an instance of `ValidatePhoneNumber` and call the method `validate(phonenumber)` with phone number as the parameter.
 ``` 
 ValidatePhoneNumber validatePhoneNumber = new ValidatePhoneNumber();
-validatePhoneNumber.validate("071 XXX XXXX").toString()
+validatePhoneNumber.validate("071 XXX XXXX");
 ``` 
 
 ### Response from validation
