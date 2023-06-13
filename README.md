@@ -31,8 +31,7 @@ implementation group: 'io.github.anesuphiri521', name: 'zimbabwean-phone-number-
 ### Getting started / Usage
 Create an instance of `ValidatePhoneNumber` and call the method `validate(phonenumber)` with phone number as the parameter.
 ``` 
-ValidatePhoneNumber validatePhoneNumber = new ValidatePhoneNumber();
-ValidationResponse response = validatePhoneNumber.validate("07XXXXXXXX");
+ValidationResponse response = new ValidatePhoneNumber().validate("07XXXXXXXX");
 if (response.isStatus()){
     //Business Logic when phone number is valid
     System.out.println(response);
