@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"PhoneNumberValidator"},{"l":"PhoneNumberValidator.model"},{"l":"PhoneNumberValidator.service"},{"l":"PhoneNumberValidator.utils"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"io.github.anesuphiri521.PhoneNumberValidator"},{"l":"io.github.anesuphiri521.PhoneNumberValidator.model"},{"l":"io.github.anesuphiri521.PhoneNumberValidator.service"},{"l":"io.github.anesuphiri521.PhoneNumberValidator.utils"}];updateSearchResults();
