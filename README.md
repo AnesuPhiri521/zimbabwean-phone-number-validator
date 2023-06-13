@@ -9,9 +9,6 @@ Java JDK 7 or higher
 ### Installation
 To use the Java Zimbabwean Phone Number Validator. 
 
-#### Gradle
-`implementation group: 'io.github.anesuphiri521', name: 'zimbabwean-phone-number-validator', version: '1.0.0'`
-
 #### Maven
 ``` 
 <dependency>
@@ -20,6 +17,9 @@ To use the Java Zimbabwean Phone Number Validator.
     <version>1.0.0</version>
 </dependency> 
 ```
+
+#### Gradle
+```implementation group: 'io.github.anesuphiri521', name: 'zimbabwean-phone-number-validator', version: '1.0.0'```
 
 #### Ivy
 ```
