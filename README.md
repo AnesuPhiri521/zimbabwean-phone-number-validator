@@ -7,7 +7,7 @@ In order to make use of this project, the following prerequisites must be met fo
 Java JDK 7 or higher
 
 ### Installation
-To use the Java Zimbabwean Phone Number Validator.
+To use the Java Zimbabwean Phone Number Validator. 
 
 #### Maven
 ``` 
