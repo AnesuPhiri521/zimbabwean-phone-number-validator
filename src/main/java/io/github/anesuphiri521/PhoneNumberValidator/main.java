@@ -6,13 +6,19 @@ package io.github.anesuphiri521.PhoneNumberValidator;
  * @author - anesuphiri - sehphirry@gmail.com
  */
 
+import io.github.anesuphiri521.PhoneNumberValidator.model.ValidationResponse;
 import io.github.anesuphiri521.PhoneNumberValidator.service.ValidatePhoneNumber;
 
 public class main {
 
     //Example
     public static void main(String[] args) {
-        ValidatePhoneNumber validatePhoneNumber = new ValidatePhoneNumber();
-        System.out.println(validatePhoneNumber.validate("071 451 1430").toString());
+        ValidationResponse response = new ValidatePhoneNumber().validate("07XXXXXXX");
+        System.out.println(response);
+        if (response.isValid()){
+            //Business Logic when phone number is valid
+        }else {
+            //Phone number is not valid
+        }
     }
 }

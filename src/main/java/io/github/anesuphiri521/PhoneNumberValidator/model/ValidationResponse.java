@@ -17,7 +17,7 @@ import lombok.ToString;
 @Builder
 @ToString
 public class ValidationResponse {
-    private boolean status;
+    private boolean valid;
     private String message;
     private ServiceProviders serviceProvider;
 }

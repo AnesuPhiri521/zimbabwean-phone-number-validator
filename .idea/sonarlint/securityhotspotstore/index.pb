@@ -1,9 +1,9 @@
 
-r
-Bsrc/main/java/PhoneNumberValidator/model/ServiceProviderCheck.java,2/7/27b2820f334941f66fbea050f95030d1b47d367d
-g
-7src/main/java/PhoneNumberValidator/utils/Constants.java,b/6/b60cc1b7d16a0d36a1d145a9b415bb7102ce151b
-n
->src/main/java/PhoneNumberValidator/utils/ServiceProviders.java,2/1/215a9822c1436e2ce52602bfd4894fe9b4f4aa08
-p
-@src/main/java/PhoneNumberValidator/model/ValidationResponse.java,d/4/d476d5006a328f08fe31bae82a39d9b0dda518b6
+†
+Vsrc/main/java/io/github/anesuphiri521/PhoneNumberValidator/utils/ServiceProviders.java,d/4/d49cf7c5b511256cf3fb4750973e25810e0f2baa
+Š
+Zsrc/main/java/io/github/anesuphiri521/PhoneNumberValidator/model/ServiceProviderCheck.java,d/0/d0221bfa78842489a198d4b8f62c7ec4f8a18347
+Œ
+\src/main/java/io/github/anesuphiri521/PhoneNumberValidator/service/CheckServiceProvider.java,5/6/56ba69a8888647ad90191de5d7b67e2f160b940f
+
+Osrc/main/java/io/github/anesuphiri521/PhoneNumberValidator/utils/Constants.java,7/f/7f041e708133c907beb8d318069b77e07ea03f04

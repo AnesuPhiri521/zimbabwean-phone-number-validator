@@ -7,10 +7,7 @@ In order to make use of this project, the following prerequisites must be met fo
 Java JDK 7 or higher
 
 ### Installation
-To use the Java Zimbabwean Phone Number Validator. 
-
-#### Gradle
-`implementation group: 'io.github.anesuphiri521', name: 'zimbabwean-phone-number-validator', version: '1.0.0'`
+To use the Java Zimbabwean Phone Number Validator.
 
 #### Maven
 ``` 
@@ -21,17 +18,34 @@ To use the Java Zimbabwean Phone Number Validator.
 </dependency> 
 ```
 
+#### Gradle
+```
+implementation group: 'io.github.anesuphiri521', name: 'zimbabwean-phone-number-validator', version: '1.0.0'
+```
+
 #### Ivy
-`<dependency org="io.github.anesuphiri521" name="zimbabwean-phone-number-validator" rev="1.0.0"/>`
+```
+<dependency org="io.github.anesuphiri521" name="zimbabwean-phone-number-validator" rev="1.0.0"/>
+```
 
 ### Getting started / Usage
 Create an instance of `ValidatePhoneNumber` and call the method `validate(phonenumber)` with phone number as the parameter.
 ``` 
-ValidatePhoneNumber validatePhoneNumber = new ValidatePhoneNumber();
-validatePhoneNumber.validate("071 XXX XXXX");
+ValidationResponse response = new ValidatePhoneNumber().validate("07XXXXXXXX");
+if (response.isStatus()){
+    //Business Logic when phone number is valid
+    System.out.println(response);
+}else {
+    //Phone number is not valid
+    System.out.println(response.getMessage());
+}
 ``` 
 
-### Response from validation
+### Response body from validation
 Response from number validation:
 
-`ValidationResponse(status=true, message=Phone number is valid, serviceProvider=Netone)`
+| Response | Explanation  |
+|----------------|--------------|
+| `valid`   | returns a boolean (`true`/`false`). When it's true, phone number will be valid, otherwise false |
+| `message`  | narration of validation response. |
+| `serviceProvider`   | This is returned when phone number is valid.<br/>Service provider for the provided phone number (Econet, Netone or Telecel). |
